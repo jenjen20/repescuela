@@ -13,6 +13,7 @@ class alumnoscontroller extends AbstractController{
 	* @return [type] [description]
 	*/
 	public function index(){
+		//echo "index alumnoscontroller";
 		$this->load->view('alumnos/index');
 	}
 }
