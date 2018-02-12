@@ -24,10 +24,10 @@
 		</div>
 		<div class="row marketing">
 			<div class="col-lg-6">
-				<h4>Alumnos</h4>
+				<h4><a href="<?php echo base_url('alumnoscontroller/index'); ?>">Alumnos</a></h4>
 				<h4>Grupos</h4>
 				<h4>Asignación</h4>
-				<h4>Maestros</h4>
+				<h4><a href="<?php echo base_url('maestroscontroller/index'); ?>">Maestros</a></h4>
 			</div>
 		</div>
 		<footer class="footer">
